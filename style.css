@@ -1,0 +1,167 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  nav a:hover {
+    color: #ccc;
+  }
+  #selected-image{
+  width:200px;
+  height:200px;
+  margin: 10px;
+}
+body{
+   background-image: url("pexels-negative-space-34633.jpg");
+    background-size: cover;
+  
+   background-repeat: no-repeat; /* This will make the image to not repeat */
+  
+}
+  @media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  nav {
+    margin-top: 10px;
+  }
+
+}
+
+
+div.outer
+{
+  background-color:none;
+  padding: 100px 100px 100px 100px;
+}
+div.inner{
+  color: black;
+  font-style: italic;
+  font-family:  Tahoma;
+  background-color: #333;
+  position: relative;
+  height: 10cm;
+  width: 10cm;
+  transition: transform 1s ease-in;
+}
+.outer:hover .inner{
+  background-color:bisque;
+  transform: translateX(100%);
+  animation: left-to-right 1s ease-in;
+}
+div.inner1{
+   color: black;
+   font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:red;
+  position: relative;
+  height: 10cm;
+  width: 10cm;
+  transition: transform 1s ease-in-out;
+}
+.outer:hover .inner1{
+  background-color: #fff;
+  transform: translateX(100%);
+  animation: right-to-left 1s ease-in;
+}
+div.inner2{
+   color: black;
+   font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:aqua;
+  position: relative;
+  height: 10cm;
+  width: 10cm;
+  transition: transform 1s ease-in-out;
+}
+.outer:hover .inner2{
+  background-color: bisque;
+  transform: translateX(100%);
+  animation: right-to-left 1s ease-in;
+}
+h1{
+  font-weight: bolder;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-size: 6ch;
+  align-items: center;
+}
+first-p{
+   font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-size: large;
+}
+footer.homef{
+  background-color: #333;
+  color: #fff;
+  padding: 2%;
+  margin: 0%;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #ccc;
+}
+div.home-header{
+  background-color:black;
+  padding: 3%;
+  color: #fff;
+
+
+}
+@media (prefers-color-scheme: dark) {
+  /* Dark mode styles */
+  body {
+    background-color: #333;
+    color: #fff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  /* Light mode styles */
+  body {
+    background-color: #fff;
+    color: #333;
+  }
+}
+img.logo{
+  background-color: black;
+  align-items: center;
+
+}
